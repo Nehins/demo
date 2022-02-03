@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @SpringBootApplication
 public class DemoApplication {
 
-    @RequestMapping
+    @RequestMapping("/")
     @ResponseBody
     String home(){
         return "Hola Sandra";
